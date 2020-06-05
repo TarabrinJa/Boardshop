@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Продукт - Boardshop#1</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>BOARDSHOP#1</h1>
+      </header>
+
+      <nav class="menu-bar">
+        <ul class="menu-list">
+          <li class="menu-icon">
+            <img onclick="showFunc()" class="menu-btn" src="../img/menu-icon.PNG" alt="Меню">
+            <ul class="main-menu" id="main-menu">
+              <li class="menu-item"><a class="menu-ref" href="#">SALE</a></li>
+              <li class="menu-item"><a class="menu-ref" href="#">Верхняя одежда</a></li>
+              <li class="menu-item"><a class="menu-ref" href="#">Одежда</a></li>
+              <li class="menu-item"><a class="menu-ref" href="#">Обувь</a></li>
+              <li class="menu-item"><a class="menu-ref" href="#">Аксессуары</a></li>
+              <li class="menu-item"><a class="menu-ref" href="#">Самокат</a></li>
+              <li class="menu-item"><a class="menu-ref" href="#">Скейтборд</a></li>
+              <li class="menu-item"><a class="menu-ref" href="#">Граффити</a></li>
+            </ul>
+          </li>
+          <li class="purchase-icon"><img src="../img/purchase-icon.PNG" alt="Корзина"></li>
+          <li class="search-icon"><img src="../img/search-icon.png" alt="Поиск"></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-container">
+      <footer class="footer">
+        <div class="footer-information">
+          <ul>
+            <li class="footer-list-header">Информация</li>
+            <li>О нас</li>
+            <li>Оплата</li>
+            <li>Доставка</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+        <div class="footer-cabinet">
+          <ul>
+            <li class="footer-list-header">Личный кабинет</li>
+            <li>Вход</li>
+            <li>Регистрация</li>
+            <li>Забыли пароль?</li>
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <section class="footer-section">
+            <h6>Email</h6>
+            <p>sale@бордшоп1.рф</p>
+          </section>
+          <section class="footer-section">
+            <h6>Наш адрес</h6>
+            <address>г. Ставрополь, ул. Дзержинского, дом 131а</address>
+          </section>
+          <section class="footer-section">
+            <h6>Режим работы</h6>
+            <p>Пн - Пт: 10.00- 21.00</p>
+            <p>Сб - Вс: 10.00 - 21.00</p>
+          </section>
+          <div class="footer-social">
+            <a href="#"><img src="img/instagram.png" alt="Инстаграм"></a>
+            <a href="#"><img src="img/vk.png" alt="ВКонтакте"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script>
+      slideShow('.slider', {
+        isAutoplay: true
+      });
+    </script>
+  </body>
+</html>

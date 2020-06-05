@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Boardshop#1</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>BOARDSHOP#1</h1>
+      </header>
+
+      <nav class="menu-bar">
+        <ul class="menu-list">
+          <li class="menu-icon">
+            <img onclick="showFunc()" class="menu-btn" src="img/menu-icon.PNG" alt="Меню">
+            <ul class="main-menu" id="main-menu">
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">SALE</a></li>
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">Верхняя одежда</a></li>
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">Одежда</a></li>
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">Обувь</a></li>
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">Аксессуары</a></li>
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">Самокат</a></li>
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">Скейтборд</a></li>
+              <li class="menu-item"><a class="menu-ref" href="pages/catalog.html">Граффити</a></li>
+            </ul>
+          </li>
+          <li class="purchase-icon"><img src="img/purchase-icon.PNG" alt="Корзина"></li>
+          <li class="search-icon"><img src="img/search-icon.png" alt="Поиск"></li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__items">
+              <div class="slider__item">
+                <div style="height: 830px; background-image: url(img/sl1.png); background-color: #1A1A1D;"><a class="slider-ref" href="pages/product.html"></a></div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 830px; background-image: url(img/sl2.png); background-color: #1A1A1D;"><a class="slider-ref" href="pages/product.html"></a></div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 830px; background-image: url(img/sl3.png); background-color: #1A1A1D;"><a class="slider-ref" href="pages/product.html"></a></div>
+              </div>
+            </div>
+          </div>
+          <a class="slider__control slider__control_prev" href="#" role="button"></a>
+          <a class="slider__control slider__control_next slider__control_show" href="#" role="button"></a>
+        </div>
+
+        <!--Промо статья-->
+        <article class="promo-container">
+          <p class="promo-text">"Договариваясь с Никитой о фотосессии в одежде бренда Molotov, поступило предложение сделать пару тегов во время работы фотографа. Мы и не ожидали, что Никита создаст целое произведение искусства на наших витринах."</p>
+          <img src="img/composition.png" alt="Произведение искусства">
+        </article>
+
+        <!--Каталог-->
+        <article class="catalog-container">
+          <h2 class="catalog-header">БОРДШОП#1 ОСНОВАН В 2005 ГОДУ</h2>
+          <ul class="catalog-list">
+            <li class="catalog-item" style="background-image: url(img/cat-1.png);"><a class="catalog-ref" href="pages/catalog.html">ВОЛЧОК</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-2.png);"><a class="catalog-ref" href="pages/catalog.html">CONVERSE</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-3.png);"><a class="catalog-ref" href="pages/catalog.html">OLDY</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-4.png);"><a class="catalog-ref" href="pages/catalog.html">SUPER SOCKS</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-5.png);"><a class="catalog-ref" href="pages/catalog.html">CARHATT WIP</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-6.png);"><a class="catalog-ref" href="pages/catalog.html">ТАЙНА</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-7.png);"><a class="catalog-ref" href="pages/catalog.html">RIPNDIP</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-8.png);"><a class="catalog-ref" href="pages/catalog.html">[KUL'TURA]</a></li>
+            <li class="catalog-item" style="background-image: url(img/cat-9.png);"><a class="catalog-ref" href="pages/catalog.html">ПРОВИНЦИЯ</a></li>
+          </ul>
+          <p class="catalog-promo">В нашем магазине открылся новый зал, а это значит, что теперь вас ожидает ещё больше брендов.</p>
+        </article>
+      </main>
+    </div>
+
+    <div class="footer-container">
+      <footer class="footer">
+        <div class="footer-information">
+          <ul>
+            <li class="footer-list-header">Информация</li>
+            <li>О нас</li>
+            <li>Оплата</li>
+            <li>Доставка</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+        <div class="footer-cabinet">
+          <ul>
+            <li class="footer-list-header">Личный кабинет</li>
+            <li><a href="pages/registration.html">Вход</a></li>
+            <li><a href="pages/registration.html">Регистрация</a></li>
+            <li><a href="pages/registration.html">Забыли пароль?</a></li>
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <section class="footer-section">
+            <h6>Email</h6>
+            <p>sale@бордшоп1.рф</p>
+          </section>
+          <section class="footer-section">
+            <h6>Наш адрес</h6>
+            <address>г. Ставрополь, ул. Дзержинского, дом 131а</address>
+          </section>
+          <section class="footer-section">
+            <h6>Режим работы</h6>
+            <p>Пн - Пт: 10.00- 21.00</p>
+            <p>Сб - Вс: 10.00 - 21.00</p>
+          </section>
+          <div class="footer-social">
+            <a href="#"><img src="img/instagram.png" alt="Инстаграм"></a>
+            <a href="#"><img src="img/vk.png" alt="ВКонтакте"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+      slideShow('.slider', {
+        isAutoplay: true
+      });
+    </script>
+  </body>
+</html>
